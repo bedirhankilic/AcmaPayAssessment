@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Abstract\" />
-    <Folder Include="Concretes\" />
+    <ProjectReference Include="..\AcmePayAssessment.DataAccessLayer\AcmePayAssessment.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\AcmePayAssessment.Entity\AcmePayAssessment.Entity.csproj" />
   </ItemGroup>
 
 </Project>

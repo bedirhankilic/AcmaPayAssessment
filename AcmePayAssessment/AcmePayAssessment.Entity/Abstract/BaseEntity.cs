@@ -1,7 +1,9 @@
-﻿namespace AcmePayAssessment.Entity.Abstract
+﻿using System;
+
+namespace AcmePayAssessment.Entity.Abstract
 {
     public class BaseEntity
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
     }
 }

@@ -8,8 +8,7 @@ namespace AcmePayAssessment.DataAccessLayer.Abstract
     {
         IQueryable<T> Get();
         IQueryable<T> Get(Expression<Func<T, bool>> predicate);
-        void Add(T entity);
+        T Add(T entity);
         void Update(T entity);
-        void Delete(T entity);
     }
 }
